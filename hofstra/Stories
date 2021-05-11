@@ -230,19 +230,48 @@ width: 800px;
           <h2> By Tyler Martineau</h2>
           <hr>
         </div>
-<p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id elit id turpis congue fermentum id a felis. In rhoncus velit ac enim congue, et dictum nunc luctus. Suspendisse pharetra at nulla at eleifend. Donec ultrices convallis placerat. Duis a dolor a sem dignissim vestibulum hendrerit vitae ante. Duis a arcu ac purus rhoncus venenatis congue nec lacus. Etiam nec ullamcorper lectus, sed feugiat purus.
+         <p>
+         While the COVID-19 pandemic was an unprecedented event in world history, the one constant throughout the issue has been the lack of a uniform protocol to combat it across the United States. As vaccines rollout nationwide at a rapid rate, each state continues to operate separately to its best interest. 
+
 </p>
 <p>
-          Suspendisse pharetra at nulla at eleifend. Donec ultrices convallis placerat. Duis a dolor a sem dignissim vestibulum hendrerit vitae ante. Duis a arcu ac purus rhoncus venenatis congue nec lacus. Etiam nec ullamcorper lectus, sed feugiat purus.
+         According to CNN Health, 259.2 million doses have been distributed across America. The CDC says not everyone needs to get the vaccine to reach “population immunity,” but there needs to be enough to limit the spread and effectiveness of the disease. But since there is no national plan, the real question is how does that translate by each state? 
+<div class="flourish-embed flourish-map" data-src="visualisation/6109019"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<p class="muted credit"> Source: Our World in Data, World Population Review</p>
+
+This map shows the amount of vaccinations compared to the estimated current population for each state. The data appears to show Massachusetts and Vermont at over 100% vaccinated, but this does not show the whole picture. Vaccinations records do not account for where the person officially resides. For instance a college student from Utah who gets the shot in New York would be marked down for the state in which the dose was received. States such as Florida with a reputation for attracting older Americans from other states were allowing travellers to get the shot very early in the distribution process. 
 </p>
-
-  <div class="flourish-embed" data-src="story/827004"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-
-<div class="flourish-embed flourish-map" data-src="visualisation/5766753"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-
-
-    <div id="footer">
+<p>
+Despite possible inflation in vaccine numbers, there is still a regional trend in doses administered. An imaginary horizontal line bisects the country and shows most northern states have higher vaccination percentages than most southern states. The map favors the northeast especially in terms of effectively combating the virus. However, current guidelines by state tell an almost completely opposite story.
+</p>
+<p>
+Each state varies how it distinguishes between phases and levels to get back to “normal” from the pandemic. AARP keeps an updated list for each state. 
+<div class="flourish-embed flourish-map" data-src="visualisation/6109163"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<p class="muted credit"> Source: AARP</p>
+<p>
+ This map attempts to group all the mandates into three color categories. Green states either none or very loose mask mandates especially when outside. Green states also tend to allow large gatherings in or outdoors. 
+  </p>
+  <p>
+  Yellow states have loose laws requiring masks outdoors, but still limit gatherings to much smaller capacity than a green state. (A yellow state may allow for a movie theater to open at 50%, when a green state would allow 75-100%.) Yellow states also show signs of opening up in the near future. 
+</p>
+<p>
+Red states vary greatly from what a red state would look like before the rollout of vaccines. Red states today still have strict mask mandates, and do not have a plan in the near future to loosen up. Some states may still encourage residents to leave their houses only out of necessity.
+</p>
+<p>
+Besides New Hampshire, much of the Northeast still has mask mandates but are moving towards looser restrictions. New York has quickly changed guidelines along with the rapid distribution of vaccines. An official of the New York State Department of Health could not respond by the time of release. 
+</p>
+<p>
+The green states tend to show the greatest deviation from the vaccine percentages. While many less populated states such as North Dakota, Nebraska, and Idaho, have been able to get back to “normal” quickly, there are also major southern states that have reopened regardless of vaccinations. 
+</p>
+<p>
+Texas and Florida are the two major states. Both have kept loose restrictions throughout the pandemic, and have also experienced spikes in cases. As previously mentioned, Florida shows a high number of vaccines distributed, but has also been very lenient in terms of travel laws and mandates. The trend of southern states with lower vaccination rates but loose restrictions carries out through South Carolina, Georgia, Mississippi, and Louisiana as well. 
+</p>
+<p>
+On the opposite end, the red states show more of a correlation with cases than vaccines. Michigan is the most prominent example as the state has recently experienced a new spike in cases. Michigan has had to go backwards on it’s reopening plan despite trending towards a new “normal.” Alabama on the other hand does show a comparison between the guidelines and vaccinations. The amount of vaccines distributed in the states is less than half of the estimated population. Although Alabama has plans to loosen up restrictions, it is set to start by the end of May, and mask mandates will be in place until at least July. 
+</p>
+<p>
+While the national focus is on vaccinations currently, it appears as though many states are tailoring guidelines to the amount of cases instead. Although the vaccine is believed to be the best defense against the virus, the nation has yet to unite under one plan to return to normal.</p>
+  <div id="footer">
         <p class="muted credit"> Source: Data Source</p>
     </div>
   </div>
