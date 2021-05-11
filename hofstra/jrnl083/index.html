@@ -1,9 +1,280 @@
-<html>
+<html lang="en">
   <head>
-    JRNL 083  
+    <meta charset="utf-8">
+    <title> Data Story</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- CSS -->
+    
+    <style type="text/css">
+      /* Sticky footer styles
+      -------------------------------------------------- */
+      html,
+      body {
+        height: 100%;
+        /* The html and body elements cannot have any padding or margin. */
+      }
+      /* Wrapper for page content to push down footer */
+      #wrap {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        /* Negative indent footer by it's height */
+        margin: 0 auto -60px;
+      }
+      /* Set the fixed height of the footer here */
+      #push,
+      #footer {
+        height: 60px;
+      }
+      #footer {
+        background-color: #f5f5f5;
+      }
+      /* Lastly, apply responsive CSS fixes as necessary */
+      @media (max-width: 767px) {
+        #footer {
+          margin-left: -20px;
+          margin-right: -20px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }
+      /* Custom page CSS
+      -------------------------------------------------- */
+      /* Not required for template or sticky footer method. */
+      .container {
+        width: auto;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+      .container .credit {
+        margin: 20px 0;
+      }
+      
+      html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+a:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+a:hover,
+a:active {
+  outline: 0;
+}
+rect:hover{
+  fill: blue;
+}
+}
+sub,
+sup {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+img {
+  width: auto\9;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+#map_canvas img,
+.google-maps img {
+  max-width: none;
+}
+button,
+input,
+select,
+textarea {
+  margin: 0;
+  font-size: 100%;
+  vertical-align: middle;
+}
+button,
+input {
+  *overflow: visible;
+  line-height: normal;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+label,
+select,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+input[type="radio"],
+input[type="checkbox"] {
+  cursor: pointer;
+}
+input[type="search"] {
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+  -webkit-appearance: textfield;
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+@media print {
+  * {
+    color: #000 !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+  thead {
+    display: table-header-group;
+  }
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+  img {
+    max-width: 100% !important;
+  }
+  @page  {
+    margin: 0.5cm;
+  }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+body {
+  margin: 20;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+  background-color: #ffffff;
+}
+a {
+  color: #0088cc;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #005580;
+  text-decoration: underline;
+}
+iframe {
+display:block;
+width: 800px;
+ margin: 0 auto;
+}
+    </style>
+    
   </head>
   <body>
-    This is Data Journalism 
-  <div class="flourish-embed flourish-map" data-src="visualisation/5799197"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
- </body>
-    </html>
+    <!-- Part 1: Wrap all page content here -->
+<div id="wrap">
+      <!-- Begin page content -->
+      <div class="container">
+        <div class="page-header">
+          <h1> Vaccinations and Restrictions </h1>
+          <h2> By Tyler Martineau</h2>
+          <hr>
+        </div>
+         <p>
+         While the COVID-19 pandemic was an unprecedented event in world history, the one constant throughout the issue has been the lack of a uniform protocol to combat it across the United States. As vaccines rollout nationwide at a rapid rate, each state continues to operate separately to its best interest. 
+
+</p>
+<p>
+         According to CNN Health, 259.2 million doses have been distributed across America. The CDC says not everyone needs to get the vaccine to reach “population immunity,” but there needs to be enough to limit the spread and effectiveness of the disease. But since there is no national plan, the real question is how does that translate by each state? 
+<div class="flourish-embed flourish-map" data-src="visualisation/6109019"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<p class="muted credit"> Source: Our World in Data, World Population Review</p>
+
+This map shows the amount of vaccinations compared to the estimated current population for each state. The data appears to show Massachusetts and Vermont at over 100% vaccinated, but this does not show the whole picture. Vaccinations records do not account for where the person officially resides. For instance a college student from Utah who gets the shot in New York would be marked down for the state in which the dose was received. States such as Florida with a reputation for attracting older Americans from other states were allowing travellers to get the shot very early in the distribution process. 
+</p>
+<p>
+Despite possible inflation in vaccine numbers, there is still a regional trend in doses administered. An imaginary horizontal line bisects the country and shows most northern states have higher vaccination percentages than most southern states. The map favors the northeast especially in terms of effectively combating the virus. However, current guidelines by state tell an almost completely opposite story.
+</p>
+<p>
+Each state varies how it distinguishes between phases and levels to get back to “normal” from the pandemic. AARP keeps an updated list for each state. 
+<div class="flourish-embed flourish-map" data-src="visualisation/6109163"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<p class="muted credit"> Source: AARP</p>
+<p>
+ This map attempts to group all the mandates into three color categories. Green states either none or very loose mask mandates especially when outside. Green states also tend to allow large gatherings in or outdoors. 
+  </p>
+  <p>
+  Yellow states have loose laws requiring masks outdoors, but still limit gatherings to much smaller capacity than a green state. (A yellow state may allow for a movie theater to open at 50%, when a green state would allow 75-100%.) Yellow states also show signs of opening up in the near future. 
+</p>
+<p>
+Red states vary greatly from what a red state would look like before the rollout of vaccines. Red states today still have strict mask mandates, and do not have a plan in the near future to loosen up. Some states may still encourage residents to leave their houses only out of necessity.
+</p>
+<p>
+Besides New Hampshire, much of the Northeast still has mask mandates but are moving towards looser restrictions. New York has quickly changed guidelines along with the rapid distribution of vaccines. An official of the New York State Department of Health could not respond by the time of release. 
+</p>
+<p>
+The green states tend to show the greatest deviation from the vaccine percentages. While many less populated states such as North Dakota, Nebraska, and Idaho, have been able to get back to “normal” quickly, there are also major southern states that have reopened regardless of vaccinations. 
+</p>
+<p>
+Texas and Florida are the two major states. Both have kept loose restrictions throughout the pandemic, and have also experienced spikes in cases. As previously mentioned, Florida shows a high number of vaccines distributed, but has also been very lenient in terms of travel laws and mandates. The trend of southern states with lower vaccination rates but loose restrictions carries out through South Carolina, Georgia, Mississippi, and Louisiana as well. 
+</p>
+<p>
+On the opposite end, the red states show more of a correlation with cases than vaccines. Michigan is the most prominent example as the state has recently experienced a new spike in cases. Michigan has had to go backwards on it’s reopening plan despite trending towards a new “normal.” Alabama on the other hand does show a comparison between the guidelines and vaccinations. The amount of vaccines distributed in the states is less than half of the estimated population. Although Alabama has plans to loosen up restrictions, it is set to start by the end of May, and mask mandates will be in place until at least July. 
+</p>
+<p>
+While the national focus is on vaccinations currently, it appears as though many states are tailoring guidelines to the amount of cases instead. Although the vaccine is believed to be the best defense against the virus, the nation has yet to unite under one plan to return to normal.</p>
+  <div id="footer">
+        <p class="muted credit"> Source: Data Source</p>
+    </div>
+  </div>
+</div>
+  </body>
+</html>
